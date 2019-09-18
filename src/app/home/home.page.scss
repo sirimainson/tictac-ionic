@@ -1,1 +1,24 @@
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #97b8f0;
 
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  ion-img {
+    margin: 2em 0;
+    width: 50%;
+  }
+
+  ion-button {
+    width: 90%;
+    --background: #ff6b35;
+    --color: #042358;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

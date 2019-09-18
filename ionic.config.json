@@ -1,5 +1,7 @@
 {
   "name": "tictac-ionic/",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

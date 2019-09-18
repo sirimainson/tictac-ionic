@@ -1,0 +1,38 @@
+<ion-app id="tictactoe">
+  <ion-img src="/assets/gameon_logo.png"></ion-img>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button id="1" class="button button-large button-positive" (click)="placeTile('1')"></button>
+      </ion-col>
+      <ion-col>
+        <button id="2" class="button button-large button-positive" (click)="placeTile('2')"></button>
+      </ion-col>
+      <ion-col>
+        <button id="4" class="button button-large button-positive" (click)="placeTile('4')"></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button id="8" class="button button-large button-positive" (click)="placeTile('8')"></button>
+      </ion-col>
+      <ion-col>
+        <button id="16" class="button button-large button-positive" (click)="placeTile('16')"></button>
+      </ion-col>
+      <ion-col>
+        <button id="32" class="button button-large button-positive" (click)="placeTile('32')"></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button id="64" class="button button-large button-positive" (click)="placeTile('64')"></button>
+      </ion-col>
+      <ion-col>
+        <button class="button button-large button-positive" id="128" (click)="placeTile('128')"></button>
+      </ion-col>
+      <ion-col>
+        <button class="button button-large button-positive" id="256" (click)="placeTile('256')"></button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-app>
